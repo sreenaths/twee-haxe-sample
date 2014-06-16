@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Twee Sample" package="tiger.twee.sample" version="1.0.0" company="Tiger Studios" />
+	<app main="Main" path="Export" file="ActuateExample" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="twee" />
+	
+</project>
