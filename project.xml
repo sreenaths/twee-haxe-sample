@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	
-	<meta title="Twee Sample" package="tiger.twee.sample" version="1.0.0" company="Tiger Studios" />
-	<app main="Main" path="Export" file="ActuateExample" />
+	<meta title="TweeSample" package="tiger.twee.sample" version="1.0.0" company="Tiger Studios" />
+	<app main="Main" path="Export" file="TweeSample" />
 	
 	<source path="Source" />
 	
 	<haxelib name="openfl" />
 	<haxelib name="twee" />
+	
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
 	
 </project>
